@@ -1,0 +1,207 @@
+.nav-bar{
+    width: 15%;
+    box-shadow: 0px 0px 3px -1px black;
+}
+.nav-bar ul{
+    padding: 0;
+}
+.nav-bar ul li{
+    line-height: 2;
+    list-style: none;
+}
+.nav-bar li:first-child{
+    border-bottom: 1px solid lightgrey;
+}
+.nav-bar li:nth-child(2){
+    border-bottom: 1px solid lightgrey;
+}
+.nav-bar ul li a{
+    padding-left: 10px;
+    display: block;
+    opacity: 0.6;
+    color: #5c5c5c;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover{
+    opacity: 1;
+    background-color: #fff;
+}
+.userimg{
+	width: 55%;
+    /*height: 425px;*/
+	margin: 0 auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+}
+#form-1{
+    width: 45%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+#form-2{
+    width: 45%;
+    float: right;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+.form-1{
+    width: 42%;
+    display: inline-block;
+}
+.first-part{
+    float: left;
+}
+.second-part{
+    /*float: right;*/
+}
+.form-controll label{
+	font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+input[type=text], input[type=email], input[type=password]{
+	width: 100%;
+    padding-left: 5px;
+	line-height: 2;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+input[type=submit]{
+	border: 1px solid lightgrey;
+    line-height: 1.5;
+    border-width: 2px;
+    background-color: whitesmoke;
+}
+input[type=submit]:hover{
+	border: 2px solid #aeaeff;
+}
+.hint{
+    background-image: url(../../../public/images/picture/hint-light.png);
+    display: block;
+    line-height: 2;
+    text-indent: 40px;
+    background-size: 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+    text-decoration: underline;
+}
+.optional{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0000004a;
+}
+.userinfo{
+    width: 45%;
+    display: inline-block;
+    margin-left: 23px;
+    padding-top: 15px;
+}
+.created-prof{
+    margin: 0;
+    display: inline-block;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+.gend{
+    width: 49%;
+    height: 30px;
+    border-radius: 5px;
+}
+.nav-bar ul li a{
+    width: 74%;
+    display: inline-block;
+}
+.setting{
+    background-image: url(../../../public/images/picture/settings.png);
+    width: 32px !important;
+    display: block;
+    float: right;
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.setting:hover{
+    background-color: transparent !important;
+}
+.account{
+    background-image: url(../../../public/images/picture/account.png);
+    width: 32px !important;
+    display: block;
+    float: right;
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.delete-acc{
+    background-image: url(../../../public/images/picture/remove-acc.png);
+    width: 32px !important;
+    display: block;
+    float: right;
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.account:hover{
+    background-color: transparent !important;
+}
+.err-pop{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    /*background-color: #ca28bd;*/
+    background-color: #ce0000;
+}
+.err-notify{
+    background-image: url(../../../public/images/picture/warning.png);
+    background-size: 19px;
+    background-repeat: no-repeat;
+    text-indent: 13px;
+}
+.err-pop p{
+    padding: 0 10px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 14px;
+    color: #fff;
+}
+.succ-pop{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    /*background-color: #ca28bd;*/
+    background-color: green;
+}
+.succ-notify{
+    background-image: url(../../../public/images/picture/success.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-indent: 15px;
+}
+.succ-pop p{
+    padding: 3px 10px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 14px;
+    color: #fff;
+}

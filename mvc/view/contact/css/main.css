@@ -1,0 +1,16 @@
+.rtop{
+    width: 35px;
+    line-height: 2;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 999;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0pc 0px 4px -1px black;
+}
+.rtop:hover{
+    background-color: #d2cece;
+}

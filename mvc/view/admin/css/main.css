@@ -1,0 +1,109 @@
+main{
+	height: inherit;
+}
+.h1{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+.access{
+	display: inline-block;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.access{
+	background-image: url(../../public/images/picture/recyclebin.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    text-indent: -9999px;
+    height: 32px;
+    width: 42px;
+}
+.edit a{
+	color: green;
+	text-decoration: none;
+}
+.edit:hover{
+	background-color: beige;
+}
+.del a{
+	color: green;
+	text-decoration: none;
+}
+.del:hover{
+	background-color: beige;
+}
+.table-user{
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+}
+.form-box{
+    width: 24%;
+    height: 400px;
+    float: right;
+    right: 5px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px -1px black;
+}
+.form-box form{
+    text-align: center;
+}
+.form-box h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+.form-box label{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+.role{
+    width: 25%;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 700;
+    color: #5c5c5c;
+    background-color: #d7e2f0;
+}
+.form-box input[type="submit"]{
+    width: 35%;
+    border-width: 1px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    line-height: 1.5;
+}
+.form-box input[type="submit"]:hover{
+    background-color: #d7e2f0;
+    border: 2px solid #d7e2f0;
+}
+.form-box input[type="text"], .form-box input[type="email"], .form-box input[type="password"]{
+    width: 70%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border-width: 1px;
+    overflow: hidden;
+}
+.table{
+    background-color: #1c77e81f;
+}
+.table th{
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+.table-color{
+    background-color: #fff;
+}
+tr:nth-child(2n + 2){
+    background-color: #1c77e81f;
+}

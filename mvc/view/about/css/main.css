@@ -1,0 +1,144 @@
+html{
+  scroll-behavior: smooth;
+}
+header nav.navigation ul{
+  margin: 0 auto;
+  width: 38%;
+  padding-left: 15%;
+  float: left;
+  list-style: none;
+}
+.hr-nav > ul > li {
+  margin-left: 65px;
+}
+.hr-nav{
+  background-color: #24292e;
+}
+.hr-nav ul li:hover{
+  background-color: #08816c; 
+}
+.hr-nav ul li a{
+  color: #e8f5f3;
+}
+.first-p > h3{
+  color: darkred;
+}
+.hashtag{
+    width: 79%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    margin-bottom: 25px;
+}
+.hashtag ul{
+  margin: 0;
+  padding: 0;
+}
+.hashtag ul li{
+  float: left;
+  padding-right: 18px;
+  list-style: none;
+}
+.hashtag ul li a{
+    display: block;
+    width: 70px;
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #5c5c5c;
+    background-color: #a9a9a926;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+}
+.hashtag ul li a:hover{
+    background-color: #d729cb;
+    color: #fff;
+    box-shadow: 5px 5px 6px -4px black;
+}
+.logo{
+  /*width: 18.3%;*/
+  margin: 4px;
+  margin-left: 6px;
+  float: left;
+  height: 49px;
+  border: 3px solid #fff;
+  clear: left;
+  padding-left: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  background: #009c7ec4;
+  list-style: none;
+}
+.horoscope-zodiac-about{
+  width: auto;
+  float: left;
+  border-right: 0px;
+}
+.horoscope-zodiac-about h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: #5c5c5c;
+}
+.about-sign{
+    float: left;
+    text-align: center;
+    display: block;
+}
+.div-sign{
+    width: 46%;
+    height: 440px;
+    margin: 11px;
+    padding: 15px;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px -2px black;
+    transition: 0.2s ease-in-out;
+}
+.div-sign:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+.first-p h3{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  padding-left: 5px;
+  font-family: inherit;
+}
+.inner-txt{
+    margin: 0 auto;
+    width: 137px;
+    height: 146px;
+    background-color: #f8f8ff00;
+}
+.div-sign img{
+	width: 100%;
+    height: 85px;
+}
+.sign-name{
+    margin: 0;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+.month{
+    margin: 0;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+.desc-sign p{
+  width: 100%;
+  text-align: center;
+  color: #5c5c5c;
+}
+.desc-sign{
+	display: block;
+}

@@ -1,0 +1,61 @@
+h1{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #5c5c5c;
+}
+.regcred{
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px -1px black;
+    background-color: #fff;
+}
+#form-2{
+    padding: 25px;
+}
+.first-part{
+    width: 40%;
+    float: left;
+}
+.second-part{
+    width: 40%;
+    float: right;
+}
+.regcred input[type=text], .regcred input[type=email], .regcred input[type=password]{
+	width: 100%;
+    padding-left: 5px;
+	line-height: 2;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+.regcred input[type=submit]{
+    width: 15%;
+    height: 25px;
+    margin-bottom: 20px;
+    float: left;
+    clear: both;
+    line-height: 1.5;
+    border-width: 2px;
+	border: 1px solid lightgrey;
+    background-color: whitesmoke;
+}
+.regcred input[type=submit]:hover{
+	border: 2px solid #aeaeff;
+}
+.form-controll label{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #5c5c5c;
+}
+.err-pop{
+    width: 100%;
+}
+.err-pop p{
+    display: inline-block;
+}
+.succ-pop{
+    width: 100%;
+}

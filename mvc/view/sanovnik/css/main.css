@@ -1,0 +1,162 @@
+html{
+	 scroll-behavior: smooth;
+}
+main{
+    width: 100%;
+}
+.s-head{
+    width: 99%;
+    height: 260px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    background-image: url(../../../public/images/picture/dreaming.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s-head h1{
+    position: relative;
+    top: 22px;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: #fff;
+}
+.find-word{
+    width: 99%;
+    height: 210px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px -2px black;
+}
+.abeceda{
+    width: 16%;
+    height: 170px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    float: left;
+    display: inline-block;
+    box-shadow: 0px 0px 3px -2px black;
+}
+.abeceda ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.abeceda ul li{
+    width: 16.67%;
+    float: left;
+    text-align: center;
+    line-height: 2;
+}
+.abeceda ul li a{
+    display: block;
+    border: 1px solid lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+    color: #5c5c5c;
+    background-color: #fff;
+}
+.abeceda ul li a:hover{
+    transform: scale(1.1);
+    color: #fff;
+    background-color: #805193;
+}
+.second-desc{
+    width: 35%;
+    margin-left: 47px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 3px -2px black;
+}
+.second-desc p{
+    width: 99%;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    /*color: #aeaeae;*/
+}
+.second-desc p:nth-child(2){
+    padding-top: 30px;
+}
+.question-img{
+    background-image: url(../../../public/images/picture/question-marks.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.name-box{
+    width: 41.5%;
+    height: 170px;
+    margin: 20px 15px;
+    float: right;
+    color: #5c5c5c;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 3px -2px black;
+}
+.name-box p{
+    line-height: 3;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    /*color: #aeaeae;*/
+    color: #805193;
+}
+.inner-search{
+    width: 50%;
+    margin: 15px auto;
+}
+input[type="search"]{
+    width: 100%;
+    height: 40px;
+    margin-left: 0px !important;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-image: url(../../../public/images/picture/search-icon.png);
+    background-size: 37px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.sanovnik{
+    width: 55%;
+    padding-left: 12px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px -2px black;
+}
+.sanovnik p{
+    padding-left: 25px;
+}
+.sanovnik p:target{
+    margin-left: 5%;
+    line-height: 2;
+    font-weight: bold;
+	border: 2px solid #D4D4D4;
+	border-radius: 5px;
+	color: #fff;
+    /*background-color: #e5eecc;*/
+    /*background-color: #7b1c7547;*/
+    background-color: #9c629e8f;
+}
+.maria-lenorman-bio{
+    width: 42%;
+    height: auto;
+    padding: 3px;
+    margin-left: 10px;
+    float: unset;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px -2px black;
+}
+.maria-lenorman-bio img{
+    width: 30%;
+    float: left;
+    margin: 22px 15px;
+}
